@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<!-- saved from url=(0014)about:internet -->
+	<link href="style.css" rel="stylesheet" type="text/css" title="Old Photo" media="screen" />
+	<link rel="stylesheet" type="text/css" media="print" href="printing.css" />
+	<!-- javascript for old browsers--> 
+	<script>
+	document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+</script>
+	<title>HTML5 Template: Pictures from Bavaria City racing used as placeholders</title>
+</head>
+<body>
+	<div id = "box_all"><!--this will contain all other block elements and page elements-->
+		<section id = "box_top"><!--Broken down into 3 sections left, centre and right will contain logo, menu and social media-->	
+			<section id = "box_top_left">
+				<figure class= "pic">
+					<br />
+					<p>Site Logo Here</p>	
+				</figure>
+			</section>
+			
+			<section id="box_top_centre">
+				<nav id="menu-container">
+
+					<ul id="navigationMenu">
+						<li><a href="home.html" class="normalMenu">Home</a></li>
+						<li><a href="tab1.html" class="normalMenu">Tab 1</a></li>
+						<li><a href="tab2.html" class="normalMenu">Tab 2</a></li>
+					</ul>
+				</nav>
+			</section>	
+
+			<section id = "box_top_right">
+				<a href="http://www.twitter.com"><img src="twitter_1.png" alt="Follow us on Twitter" title="Follow us on Twitter" height="32" width="32" /></a>
+				<a href="http://www.facebook.com"><img src="fb_1.png" alt="Join us on Facebook" title="Join us on Facebook" height="32" width="32" /></a>	
+			</section>	
+		</section>
+
+		<!--box_centre css starts on line 159 of style.css this will contain all of the main content and pictures in the site -->
+		<section id = "box_centre">
+			<section class = "col1"><!-- styling on this page supports a 3 column view in order to get all the specific contact information in one page without havng to scroll-->
+				<article class = "txt">
+					<br />
+					<br />
+					<h3>Contact us..</h3>
+						<dl>
+							<dt>Opening Hours</dt>
+								<dd>The Spire Underground, Bookshop &amp; Coffeehouse is open Tuesdays through Saturdays, 11am - 6pm Sundays, 1-6pm.</dd>
+							<dt>Phone No.</dt>
+								<dd>t: +353 1 666 1999</dd>
+								<dd>t+f: +353 1 999 1666</dd>		
+							<dt>Director</dt>
+								<dd>Ming</dd>
+							<dt>Bookshop Manager</dt>
+								<dd>Mister Worm</dd>
+							<dt>Coffee Shop Manager</dt>
+								<dd>Misty Tea</dd>					
+						</dl>
+						<p><a href="mailus.html">Click here to email us</a></p>
+				</article>
+			</section>
+
+			<section class = "col2">
+				<br />
+				<br />
+				<figure class = "map"><!--styling for map line 459 gp1.css 466 gp2.css-->
+					<iframe width="240" height="180" frameborder="0" scrolling="no" marginheight="1" marginwidth="1" src="https://maps.google.ie/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=the+gallery+of+photography,+Meeting+House+Square,+Dublin&amp;aq=&amp;sll=53.344971,-6.265061&amp;sspn=0.002129,0.005252&amp;t=h&amp;ie=UTF8&amp;hq=the+gallery+of+photography,&amp;hnear=Meeting+House+Square,+Dublin,+County+Dublin&amp;ll=53.34515,-6.265573&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
+					<br /><small><a href="https://maps.google.ie/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=the+gallery+of+photography,+Meeting+House+Square,+Dublin&amp;aq=&amp;sll=53.344971,-6.265061&amp;sspn=0.002129,0.005252&amp;t=h&amp;ie=UTF8&amp;hq=the+gallery+of+photography,&amp;hnear=Meeting+House+Square,+Dublin,+County+Dublin&amp;ll=53.34515,-6.265573&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+				</figure>
+
+				<figcaption class = "txt_map">
+					<h3>Find us..</h3>
+					<dl>
+						<dt>Address</dt>
+							<dd>Spire Underground</dd>
+							<dd>The Spire</dd>
+							<dd>Dublin 1</dd>
+							<dd>Ireland</dd>
+					</dl>
+				</figcaption>
+
+			</section>
+
+			<section class = "col3">
+				<article class = "txt">
+					<article class = "txt_tweet"><!-- specific styling for twiiter feed starts on line 426 style.css-->
+						<br />
+						<br />
+						<h3>Like us..Tweet us..</h3>
+						<h4>Our tweets</h4>
+					</article>
+
+					<figure class = "tweet">
+						<ol id="twitter_update_list">
+							<li></li>
+						</ol>
+						<!-- below code taken from Twitter developer help have used my own twitter account to test the code and layout as the gallery haven't yet set up their twitter-->
+						<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+						<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/kcoughlan78.json?callback=twitterCallback2&amp;count=5"></script>
+					</figure>
+				</article>
+			</section>			
+		</section>
+
+		<!--box_bottom css starts on line 517 of gp1.css -->
+		<section id = "box_bottom">
+			<section id = "box_bottom_left">
+				<figure class ="logo">
+					<p>Sponsor or service provider logo</p>
+				</figure>
+			</section>
+	
+			<section id = "box_bottom_right">	
+				<section class = "breadcrumbs">
+					<br />
+					<a href = "contactus.html">|Contact us|</a>
+					<a href = "mailus.html">|FAQ's|</a>
+				</section>
+			</section>
+		</section>
+	</div>	
+<script type="text/javascript" src="jquery.js"></script>	
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

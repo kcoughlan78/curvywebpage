@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+}
+
+#box_all {
+	background-color: white;
+	color: black;
+	border: medium;
+	height:100%;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 90%;
+}
+
+#box_top {
+	background-color: white;
+	color: black;
+	margin: 0;
+	padding: 5px;
+}
+	#box_top_centre {display: none;}
+	#box_top_right {display: none;}
+
+#box_centre {
+	font-size: 100%;
+	font-family: serif;
+	padding-left: 20px;
+}
+
+#box_centre a {
+	text-decoration: none;
+}
+
+#box_bottom {
+	background-color: white;
+	color: black;
+	margin: 0;
+	padding: 5px;
+}
+	#box_bottom_right {display: none;}
