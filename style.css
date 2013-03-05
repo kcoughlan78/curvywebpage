@@ -222,6 +222,15 @@ article, figcaption {
 	-webkit-border-bottom-right-radius: 15% 15%;
 	background-repeat:no-repeat;
 	background-color:#C8C8C8;
+	overflow: hidden;
+	cursor: pointer;
+	transition: background-size 5.5s ease-out;
+}
+
+#box_centre .picture:hover {
+	background-size: 110% 105%;
+	background-origin: border- box;
+
 }
 
 #box_centre .picture_tab1 {
